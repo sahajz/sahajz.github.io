@@ -36,7 +36,7 @@
   
   <link rel="stylesheet" href="/css/syntax.min.css" integrity="" media="screen">
 
-  <link rel="alternate" type="application/rss+xml" href="http://example.org/index.xml" title="Sahaj Zalavadia" />
+  <link rel="alternate" type="application/rss+xml" href="http://sahajz.github.io/index.xml" title="Sahaj Zalavadia" />
 <script src="https://cdn.jsdelivr.net/npm/mailgo@0.9.14/dist/mailgo.min.js" defer></script>
 
   <!--Favicon-->
@@ -53,7 +53,7 @@
             <ul class="uk-navbar-nav uk-visible@s">
                 
                 <li class="uk-active "><a style="font-size: 18px; text-transform: none"
-                        href="http://example.org/"> Home </a></li>
+                        href="http://sahajz.github.io/"> Home </a></li>
                 
                 
                 
@@ -89,7 +89,7 @@
 
         <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
             
-            <li class="uk-active"><a style="font-size: 18px" href="http://example.org/"> Home </a>
+            <li class="uk-active"><a style="font-size: 18px" href="http://sahajz.github.io/"> Home </a>
             </li>
             
             
@@ -146,7 +146,7 @@
             
             <p class="uk-text-lead">Computer Engineering and Economics Student at NC State University</p>
             
-            <a class="uk-button uk-button-text" href="http://example.org/about">Find out more</a>
+            <a class="uk-button uk-button-text" href="http://sahajz.github.io/about">Find out more</a>
             
             
         </div>
@@ -199,6 +199,31 @@
 </div>
 
 
+
+<div id="HTML" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">HTML</h2>
+        </div>
+        <p>Details coming soon, contact me if you want to know more</p>
+    </div>
+</div>
+
+
+
+<div id="C" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">C</h2>
+        </div>
+        <p>Details coming soon, contact me if you want to know more</p>
+    </div>
+</div>
+
+
+
 <section class="uk-margin-large-top uk-margin-large-bottom">
     <div class="uk-container">
         <h1 class="uk-heading-line uk-text-center uk-heading-medium"><span>Skills</span></h1>
@@ -208,12 +233,31 @@
             uk-grid>
             
             <div class="imagemargin">
-                <img class="contain skills" src="https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg" alt="" loading="lazy" style="cursor: pointer"
+                <img class="contain skills" src="logos/js.png" alt="" loading="lazy" style="cursor: pointer"
                     uk-toggle="target: #JavaScript">
                 <h4>JavaScript</h4>
             </div>
             
+
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="logos/html.png" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #HTML">
+                <h4>HTML</h4>
+            </div>
+            
+
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="logos/c.png" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #C">
+                <h4>C</h4>
+            </div>
+            
+
         </div>
+
+        
 
     </div>
 
@@ -237,6 +281,18 @@
 
 
 
+
+<div id="Software_Engineer_Intern" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Software Engineer Intern</h2>
+        </div>
+        <p>Pair-programmed with senior engineers to deliver features to users within a Scaled Agile Framework. Developed a ReactJS web application using HERE Maps API that allowed users to view nearby towing locations. Implemented a Google Analytics function that tracked web application traffic to easily identify bugs.</p>
+    </div>
+</div>
+
+
 <section class="uk-margin-large-bottom">
     <div class="uk-container">
         <h1 class="uk-heading-line  uk-text-center uk-heading-medium"><span>Experience</span></h1>
@@ -246,7 +302,8 @@
 
             
             <div>
-                <div class="uk-card uk-card-default uk-height-large">
+                <div class="uk-card uk-card-default uk-height-large"  style="cursor: pointer"
+                uk-toggle="target: #Software_Engineer_Intern">
                     <div class="uk-card-media-top">
                         <img class="contain experience" src="images/allstate.jpg" alt="" style="padding: 20px" loading="lazy">
                     </div>
